@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+/*  */
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+/* pseudo class */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+a{
+    text-decoration: none;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(to right, red, grey);
+    color: darkgray;
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 50%;
+
+}
+.h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+
+}
+#name{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Smooch', cursive;;
+}
+#bio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+
+}
+#writings a:hover{
+    color: blue;
+}
+#contact{
+    background-color: gray;
+}
+#contact iframe{
+    width: 100%;
+    margin: 5px;
+}
+.contact_1 h3{
+    display: inline
+}
